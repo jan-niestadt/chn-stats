@@ -14,10 +14,10 @@
       :grouping="chnStats['languageVariant']" />
 
     <CorpusCharts 
-      type="column" 
+      type="stacked-column" 
       yAxis="tokens" 
       title="Tokens per languageVariant per year" 
-      :grouping="lumpWeirdYearsTogether(makeNested(chnStats['grouping_year,languageVariant'], ['grouping_year', 'languageVariant']))" />
+      :grouping="makeNested(chnStats['grouping_year,languageVariant'], ['languageVariant', 'grouping_year'])" />
 
   </div>
 </template>
@@ -27,9 +27,11 @@ import Vue from 'vue';
 import CorpusCharts from './components/CorpusCharts.vue';
 import HighchartsVue from 'highcharts-vue';
 import chnStats from './assets/stats.json';
-import { CorpusStatsGroup, CorpusStatsGrouping, CorpusStatsNestedGrouping } from './types/stats';
+import { CorpusStatsGroup, CorpusStatsGrouping } from './types/stats';
 
 Vue.use(HighchartsVue);
+
+// TODO: make this work for other corpora as well (right now it's pretty much CHN-only...)
 
 export default Vue.extend({
   name: 'App',
@@ -44,13 +46,66 @@ export default Vue.extend({
   methods: {
 
     // Given a grouping on two fields, turn it into a nested grouping
-    makeNested(grouping: CorpusStatsGrouping, fields: string[]): CorpusStatsNestedGrouping {
-      
+    makeNested(grouping: CorpusStatsGrouping, fields: string[]): CorpusStatsGrouping {
+
+      // Separate out the groups by year
+      const yearKey = fields[0];
+      const otherKey = fields[1];
+      const groupsByYear: Record<string,CorpusStatsGroup[]> = {};
+      for (let group of grouping.groups) {
+        const year = group.identity[yearKey];
+        if (!(year in groupsByYear))
+          groupsByYear[year] = [];
+        groupsByYear[year].push(group);
+      }
+
+      // Given a tuple of year and the groups in that year,
+      // create a CorpusStatsGroup with nested groups, so we know the
+      // grouping of the other property within that year and can show
+      // it in a stacked column chart.
+      const entryToNestedGroup = ([year, groupsInYear]: [string, CorpusStatsGroup[]]) => {
+        const docs: number = groupsInYear.reduce( (n: number, group: CorpusStatsGroup) => n + group.docs, 0);
+        const tokens: number = groupsInYear.reduce( (n: number, group: CorpusStatsGroup) => n + group.tokens, 0);
+        return {
+          identity: {
+            [yearKey]: year,
+          },
+          docs,
+          tokens,
+          groups: groupsInYear.map( group => {
+            return { 
+              identity: {
+                [otherKey]: group.identity[otherKey]
+              },
+              docs: group.docs,
+              tokens: group.tokens,
+            };
+          }),
+        };
+      };
+
+      // Create the nested groups
+      const groups: CorpusStatsGroup[] = Object.entries(groupsByYear).map(entryToNestedGroup);
+      return {
+        docs: grouping.docs,
+        tokens: grouping.tokens,
+        groups,
+      };
     },
 
     // For groups where the specified identity key doesn't indicate a single likely year:
     // lump them together in a "weird group" with ? identity.
     lumpWeirdYearsTogether(grouping: CorpusStatsGrouping, key = 'grouping_year'): CorpusStatsGrouping {
+
+      // Is this a weird year?
+      // - not of the form YYYY-YYYY
+      // - not two identical years
+      // - years before 1900 or after 2100
+      const isWeirdYear = (year: string) => {
+        const groups = year.match(/^(\d{4})-(\1)$/);
+        return !groups || parseInt(groups[1]) < 1900 || parseInt(groups[1]) > 2100;
+      };
+
       const weirdGroup = {
         identity: {} as Record<string,string>,
         docs: 0,
@@ -65,13 +120,9 @@ export default Vue.extend({
           Object.keys(weirdGroup.identity).forEach(key => weirdGroup.identity[key] = '?');
         }
 
-        // Is this a weird one?
-        // - not of the form YYYY-YYYY
-        // - not two identical years
-        // - years before 1900 or after 2100
-        const groups = group.identity[key].match(/^(\d{4})-(\1)$/);
-        if (!groups || parseInt(groups[1]) < 1900 || parseInt(groups[1]) > 2100) {
-          // Lump together with the other weirdos
+        // Is this a weird year value?
+        if (isWeirdYear(group.identity[key])) {
+          // Yes; lump together with the other weirdos
           weirdGroup.docs += group.docs;
           weirdGroup.tokens += group.tokens;
         } else {
@@ -91,5 +142,9 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
+
+#app {
+  max-width: 60rem;
+}
 
 </style>

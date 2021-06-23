@@ -16,17 +16,5 @@ export interface CorpusStatsGroup {
   identity: Record<string, string>;
   docs: number;
   tokens: number;
-}
-
-// Grouping with a grouping in each group
-export interface CorpusStatsNestedGrouping {
-  docs: number;
-  tokens: number;
-  groups: CorpusStatsNestedGroup[];
-}
-
-// Group with another grouping in it
-export interface CorpusStatsNestedGroup {
-  identity: string;
-  groups: CorpusStatsGroup[];
+  groups?: CorpusStatsGroup[]; // nested groups, if any
 }

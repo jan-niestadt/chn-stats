@@ -7,9 +7,7 @@
 <script lang="ts">
 import Vue from 'vue';
 import * as Highcharts from 'highcharts';
-import { CorpusStats, CorpusStatsGroup, CorpusStatsGrouping } from '@/types/stats';
-
-// TODO: make this work for other corpora as well (right now it's pretty much CHN-only...)
+import { CorpusStatsGroup, CorpusStatsGrouping } from '@/types/stats';
 
 const groupName = (group: CorpusStatsGroup) => Object.values(group.identity).join(" / ");
 
@@ -28,6 +26,8 @@ export default Vue.extend({
       const groups = grouping.groups;
 
       let series: Highcharts.SeriesOptionsType[];
+      let categories: string[];
+      let plotOptions: Highcharts.PlotOptions = {};
       if (this.type === 'column' || this.type === 'bar') {
         // Column or bar chart
         series = [
@@ -37,6 +37,7 @@ export default Vue.extend({
             data: this.yAxis === 'tokens' ? groups.map(group => group.tokens) : groups.map(group => group.docs),
           }
         ];
+        categories = groups.map(groupName);
       } else if (this.type === 'pie') {
 
         const data = groups.map(group => {
@@ -53,6 +54,32 @@ export default Vue.extend({
           type: 'pie',
           data,
         }];
+        categories = groups.map(groupName);
+      } else if (this.type === 'stacked-column') {
+
+        // Stacked column chart
+        series = groups.map(group => {
+          return {
+            name: groupName(group),
+            type: 'column',
+            data: group.groups!.map(group => this.yAxis === 'tokens' ? group.tokens : group.docs),
+          };
+        });
+        // Categories on x-axis: all the unique inner group values
+        categories = [...new Set(groups.map(group => group.groups!.map( gr2 => groupName(gr2) )).flat())];
+        //window.console.log(series, categories);
+        
+        plotOptions = {
+          column: {
+            stacking: 'normal',
+            dataLabels: {
+                enabled: true,
+            },
+          },
+        };
+
+      } else {
+        throw `Unknown chart type: ${this.type}`;
       }
 
 			return {
@@ -63,7 +90,7 @@ export default Vue.extend({
             text: this.title,
         },
         xAxis: {
-          categories: groups.map(groupName),
+          categories,
           labels: {
             enabled: true,
           },
@@ -74,6 +101,7 @@ export default Vue.extend({
                 text: this.yAxis === 'tokens' ? 'Tokens' : 'Documents',
             },
         },
+        plotOptions,
         legend: {
           enabled: false,
         },
