@@ -72,9 +72,6 @@ export default Vue.extend({
         plotOptions = {
           column: {
             stacking: 'normal',
-            dataLabels: {
-                enabled: true,
-            },
           },
         };
 
