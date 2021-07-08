@@ -119,9 +119,54 @@ export default Vue.extend({
       };
     },
 
+    lumpTogether(grouping: CorpusStatsGrouping, key: string, shouldLump: (value: string) => boolean, lumpValue: string): CorpusStatsGrouping {
+      const lump = {
+        identity: {} as Record<string,string>,
+        docs: 0,
+        tokens: 0,
+      };
+      const resultingGroups: CorpusStatsGroup[] = [];
+      for (const group of grouping.groups) {
+        // Is lump's identity initialized?
+        if (Object.keys(lump.identity).length === 0) {
+          // Set all identity components to the lump value, e.g. "other", "unknown", etc.
+          lump.identity = group.identity;
+          Object.keys(lump.identity).forEach(key => lump.identity[key] = lumpValue);
+        }
+
+        // Is this a lumpable value?
+        if (shouldLump(group.identity[key])) {
+          // Yes; put it with the other lumpables
+          lump.docs += group.docs;
+          lump.tokens += group.tokens;
+        } else {
+          resultingGroups.push(group);
+        }
+      }
+
+      resultingGroups.push(lump);
+      return {
+        tokens: grouping.tokens,
+        docs: grouping.docs,
+        groups: resultingGroups,
+      };
+    },
+
+    lumpWeirdYearsTogether(grouping: CorpusStatsGrouping): CorpusStatsGrouping {
+      // Is this a weird year?
+      // - not of the form YYYY-YYYY
+      // - not two identical years
+      // - years before 1900 or after 2100
+      const isWeirdYear = (year: string) => {
+        const groups = year.match(/^(\d{4})-(\1)$/);
+        return !groups || parseInt(groups[1]) < 1900 || parseInt(groups[1]) > 2100;
+      };
+      return this.lumpTogether(grouping, 'grouping_year', isWeirdYear, '?');
+    },
+
     // For groups where the specified identity key doesn't indicate a single likely year:
     // lump them together in a "weird group" with ? identity.
-    lumpWeirdYearsTogether(grouping: CorpusStatsGrouping, key = 'grouping_year'): CorpusStatsGrouping {
+    lumpWeirdYearsTogetherOld(grouping: CorpusStatsGrouping, key = 'grouping_year'): CorpusStatsGrouping {
 
       // Is this a weird year?
       // - not of the form YYYY-YYYY
