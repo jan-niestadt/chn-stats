@@ -47,7 +47,7 @@
       type="pie" 
       yAxis="tokens" 
       title="Tokens per newspaper" 
-      :grouping="stats['titleLevel2']" />
+      :grouping="lumpSmallGroupsTogether(stats['titleLevel2'], 10000000)" />
 
   </div>
 </template>
@@ -56,10 +56,6 @@
 import Vue from 'vue';
 import CorpusChart from './CorpusChart.vue';
 import { CorpusStats, CorpusStatsGroup, CorpusStatsGrouping } from '@/types/stats';
-
-const groupName = (group: CorpusStatsGroup) => Object.values(group.identity).join(" / ");
-
-const groupSize = (group: CorpusStatsGroup, sizeType: string) => sizeType === 'tokens' ? group.tokens : group.docs;
 
 export default Vue.extend({
   name: 'CorpusCharts',
@@ -119,7 +115,7 @@ export default Vue.extend({
       };
     },
 
-    lumpTogether(grouping: CorpusStatsGrouping, key: string, shouldLump: (value: string) => boolean, lumpValue: string): CorpusStatsGrouping {
+    lumpTogether(grouping: CorpusStatsGrouping, shouldLump: (value: CorpusStatsGroup) => boolean, lumpValue: string): CorpusStatsGrouping {
       const lump = {
         identity: {} as Record<string,string>,
         docs: 0,
@@ -135,7 +131,7 @@ export default Vue.extend({
         }
 
         // Is this a lumpable value?
-        if (shouldLump(group.identity[key])) {
+        if (shouldLump(group)) {
           // Yes; put it with the other lumpables
           lump.docs += group.docs;
           lump.tokens += group.tokens;
@@ -157,57 +153,26 @@ export default Vue.extend({
       // - not of the form YYYY-YYYY
       // - not two identical years
       // - years before 1900 or after 2100
-      const isWeirdYear = (year: string) => {
-        const groups = year.match(/^(\d{4})-(\1)$/);
-        return !groups || parseInt(groups[1]) < 1900 || parseInt(groups[1]) > 2100;
+      const isWeirdYear = (group: CorpusStatsGroup) => {
+
+        // Is this a lumpable value?
+        const strYear = group.identity['grouping_year'];
+        const groups = strYear.match(/^(\d{4})-(\1)$/);
+        if (!groups)
+          return true;
+        const year = parseInt(groups[1]);
+        return year < 1900 || year > 2100;
       };
-      return this.lumpTogether(grouping, 'grouping_year', isWeirdYear, '?');
+      return this.lumpTogether(grouping, isWeirdYear, '?');
     },
 
-    // For groups where the specified identity key doesn't indicate a single likely year:
-    // lump them together in a "weird group" with ? identity.
-    lumpWeirdYearsTogetherOld(grouping: CorpusStatsGrouping, key = 'grouping_year'): CorpusStatsGrouping {
+    lumpSmallGroupsTogether(grouping: CorpusStatsGrouping, threshold: number): CorpusStatsGrouping {
+      // Is this a small group?
+      // - tokens size smaller than threshold?
+      const isSmallGroup = (group: CorpusStatsGroup) => group.tokens < threshold;
+      return this.lumpTogether(grouping, isSmallGroup, 'other');
+    },
 
-      // Is this a weird year?
-      // - not of the form YYYY-YYYY
-      // - not two identical years
-      // - years before 1900 or after 2100
-      const isWeirdYear = (year: string) => {
-        const groups = year.match(/^(\d{4})-(\1)$/);
-        return !groups || parseInt(groups[1]) < 1900 || parseInt(groups[1]) > 2100;
-      };
-
-      const weirdGroup = {
-        identity: {} as Record<string,string>,
-        docs: 0,
-        tokens: 0,
-      };
-      const resultingGroups: CorpusStatsGroup[] = [];
-      for (const group of grouping.groups) {
-        // Is weirdGroup identity initialized?
-        if (Object.keys(weirdGroup.identity).length === 0) {
-          // Set all identity components to ?
-          weirdGroup.identity = group.identity;
-          Object.keys(weirdGroup.identity).forEach(key => weirdGroup.identity[key] = '?');
-        }
-
-        // Is this a weird year value?
-        if (isWeirdYear(group.identity[key])) {
-          // Yes; lump together with the other weirdos
-          weirdGroup.docs += group.docs;
-          weirdGroup.tokens += group.tokens;
-        } else {
-          resultingGroups.push(group);
-        }
-      }
-
-      resultingGroups.push(weirdGroup);
-      return {
-        tokens: grouping.tokens,
-        docs: grouping.docs,
-        groups: resultingGroups,
-      };
-    }
   },
 });
 </script>

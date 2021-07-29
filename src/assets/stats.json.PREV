@@ -1,7 +1,7 @@
 {
     "grouping_year": {
-        "docs": 4744122,
-        "tokens": 2156747773,
+        "docs": 4713904,
+        "tokens": 2143679397,
         "groups": [
             {
                 "identity": {
@@ -231,8 +231,8 @@
                 "identity": {
                     "grouping_year": "1981-1981"
                 },
-                "docs": 108,
-                "tokens": 6404888
+                "docs": 107,
+                "tokens": 6404795
             },
             {
                 "identity": {
@@ -259,8 +259,8 @@
                 "identity": {
                     "grouping_year": "1983-1983"
                 },
-                "docs": 116,
-                "tokens": 7138099
+                "docs": 114,
+                "tokens": 7138003
             },
             {
                 "identity": {
@@ -287,8 +287,8 @@
                 "identity": {
                     "grouping_year": "1985-1985"
                 },
-                "docs": 113,
-                "tokens": 5017260
+                "docs": 110,
+                "tokens": 5016589
             },
             {
                 "identity": {
@@ -301,8 +301,8 @@
                 "identity": {
                     "grouping_year": "1986-1986"
                 },
-                "docs": 126,
-                "tokens": 3098460
+                "docs": 123,
+                "tokens": 3093593
             },
             {
                 "identity": {
@@ -322,50 +322,50 @@
                 "identity": {
                     "grouping_year": "1989-1989"
                 },
-                "docs": 61,
-                "tokens": 1163640
+                "docs": 60,
+                "tokens": 1163612
             },
             {
                 "identity": {
                     "grouping_year": "1990-1990"
                 },
-                "docs": 163,
-                "tokens": 1141518
+                "docs": 161,
+                "tokens": 1141358
             },
             {
                 "identity": {
                     "grouping_year": "1991-1991"
                 },
-                "docs": 387,
-                "tokens": 2141175
+                "docs": 383,
+                "tokens": 2140579
             },
             {
                 "identity": {
                     "grouping_year": "1992-1992"
                 },
-                "docs": 543,
-                "tokens": 3034060
+                "docs": 540,
+                "tokens": 3033780
             },
             {
                 "identity": {
                     "grouping_year": "1993-1993"
                 },
-                "docs": 17538,
-                "tokens": 11203309
+                "docs": 17534,
+                "tokens": 11203026
             },
             {
                 "identity": {
                     "grouping_year": "1994-1994"
                 },
-                "docs": 120462,
-                "tokens": 68944452
+                "docs": 120459,
+                "tokens": 68944212
             },
             {
                 "identity": {
                     "grouping_year": "1995-1995"
                 },
-                "docs": 108076,
-                "tokens": 63162954
+                "docs": 108071,
+                "tokens": 63162127
             },
             {
                 "identity": {
@@ -378,36 +378,36 @@
                 "identity": {
                     "grouping_year": "1996-1996"
                 },
-                "docs": 5926,
-                "tokens": 17066628
+                "docs": 5918,
+                "tokens": 17062742
             },
             {
                 "identity": {
                     "grouping_year": "1997-1997"
                 },
-                "docs": 11481,
-                "tokens": 9156760
+                "docs": 11473,
+                "tokens": 9147958
             },
             {
                 "identity": {
                     "grouping_year": "1998-1998"
                 },
-                "docs": 2626,
-                "tokens": 3422822
+                "docs": 2614,
+                "tokens": 3420297
             },
             {
                 "identity": {
                     "grouping_year": "1999-1999"
                 },
-                "docs": 206523,
-                "tokens": 85172565
+                "docs": 206500,
+                "tokens": 85164787
             },
             {
                 "identity": {
                     "grouping_year": "2000-2000"
                 },
-                "docs": 270518,
-                "tokens": 112866401
+                "docs": 270494,
+                "tokens": 112847908
             },
             {
                 "identity": {
@@ -420,8 +420,8 @@
                 "identity": {
                     "grouping_year": "2001-2001"
                 },
-                "docs": 239482,
-                "tokens": 103899088
+                "docs": 239454,
+                "tokens": 103893387
             },
             {
                 "identity": {
@@ -434,43 +434,43 @@
                 "identity": {
                     "grouping_year": "2002-2002"
                 },
-                "docs": 222425,
-                "tokens": 93516028
+                "docs": 222395,
+                "tokens": 93493476
             },
             {
                 "identity": {
                     "grouping_year": "2003-2003"
                 },
-                "docs": 205198,
-                "tokens": 78973931
+                "docs": 205168,
+                "tokens": 78963409
             },
             {
                 "identity": {
                     "grouping_year": "2004-2004"
                 },
-                "docs": 216320,
-                "tokens": 78017889
+                "docs": 216295,
+                "tokens": 78007647
             },
             {
                 "identity": {
                     "grouping_year": "2005-2005"
                 },
-                "docs": 240935,
-                "tokens": 87317571
+                "docs": 240924,
+                "tokens": 87306454
             },
             {
                 "identity": {
                     "grouping_year": "2006-2006"
                 },
-                "docs": 198243,
-                "tokens": 75417115
+                "docs": 198235,
+                "tokens": 75415911
             },
             {
                 "identity": {
                     "grouping_year": "2007-2007"
                 },
-                "docs": 184313,
-                "tokens": 71400033
+                "docs": 184311,
+                "tokens": 71395568
             },
             {
                 "identity": {
@@ -574,8 +574,8 @@
                 "identity": {
                     "grouping_year": "2021-2021"
                 },
-                "docs": 168717,
-                "tokens": 78863793
+                "docs": 138740,
+                "tokens": 65910860
             },
             {
                 "identity": {
@@ -600,13 +600,6 @@
             },
             {
                 "identity": {
-                    "grouping_year": "6553-6553"
-                },
-                "docs": 1,
-                "tokens": 15
-            },
-            {
-                "identity": {
                     "grouping_year": "versions/folia/splitted_splitted/0/27.xml-versions/folia/splitted_splitted/0/27.xml"
                 },
                 "docs": 1,
@@ -622,8 +615,8 @@
         ]
     },
     "languageVariant": {
-        "docs": 4744122,
-        "tokens": 2156747773,
+        "docs": 4713904,
+        "tokens": 2143679397,
         "groups": [
             {
                 "identity": {
@@ -636,8 +629,8 @@
                 "identity": {
                     "languageVariant": "BN"
                 },
-                "docs": 1238018,
-                "tokens": 504084406
+                "docs": 1213414,
+                "tokens": 496768727
             },
             {
                 "identity": {
@@ -657,15 +650,15 @@
                 "identity": {
                     "languageVariant": "NN"
                 },
-                "docs": 3069583,
-                "tokens": 1471197097
+                "docs": 3063999,
+                "tokens": 1465452604
             },
             {
                 "identity": {
                     "languageVariant": "SN"
                 },
-                "docs": 186555,
-                "tokens": 66603241
+                "docs": 186525,
+                "tokens": 66595037
             },
             {
                 "identity": {
@@ -677,8 +670,8 @@
         ]
     },
     "grouping_year,languageVariant": {
-        "docs": 4744122,
-        "tokens": 2156747773,
+        "docs": 4713904,
+        "tokens": 2143679397,
         "groups": [
             {
                 "identity": {
@@ -1157,8 +1150,8 @@
                     "grouping_year": "1981-1981",
                     "languageVariant": "BN"
                 },
-                "docs": 8,
-                "tokens": 101267
+                "docs": 7,
+                "tokens": 101174
             },
             {
                 "identity": {
@@ -1221,8 +1214,8 @@
                     "grouping_year": "1983-1983",
                     "languageVariant": "BN"
                 },
-                "docs": 15,
-                "tokens": 870173
+                "docs": 13,
+                "tokens": 870077
             },
             {
                 "identity": {
@@ -1285,8 +1278,8 @@
                     "grouping_year": "1985-1985",
                     "languageVariant": "BN"
                 },
-                "docs": 17,
-                "tokens": 250252
+                "docs": 14,
+                "tokens": 249581
             },
             {
                 "identity": {
@@ -1317,8 +1310,8 @@
                     "grouping_year": "1986-1986",
                     "languageVariant": "BN"
                 },
-                "docs": 12,
-                "tokens": 62992
+                "docs": 10,
+                "tokens": 58270
             },
             {
                 "identity": {
@@ -1333,8 +1326,8 @@
                     "grouping_year": "1986-1986",
                     "languageVariant": "NN"
                 },
-                "docs": 82,
-                "tokens": 1643783
+                "docs": 81,
+                "tokens": 1643638
             },
             {
                 "identity": {
@@ -1405,8 +1398,8 @@
                     "grouping_year": "1989-1989",
                     "languageVariant": "BN"
                 },
-                "docs": 15,
-                "tokens": 78305
+                "docs": 14,
+                "tokens": 78277
             },
             {
                 "identity": {
@@ -1421,8 +1414,8 @@
                     "grouping_year": "1990-1990",
                     "languageVariant": "BN"
                 },
-                "docs": 31,
-                "tokens": 54059
+                "docs": 29,
+                "tokens": 53899
             },
             {
                 "identity": {
@@ -1445,8 +1438,8 @@
                     "grouping_year": "1991-1991",
                     "languageVariant": "BN"
                 },
-                "docs": 27,
-                "tokens": 184242
+                "docs": 23,
+                "tokens": 183646
             },
             {
                 "identity": {
@@ -1461,8 +1454,8 @@
                     "grouping_year": "1992-1992",
                     "languageVariant": "BN"
                 },
-                "docs": 39,
-                "tokens": 323423
+                "docs": 36,
+                "tokens": 323143
             },
             {
                 "identity": {
@@ -1477,16 +1470,16 @@
                     "grouping_year": "1993-1993",
                     "languageVariant": "BN"
                 },
-                "docs": 37,
-                "tokens": 46735
+                "docs": 34,
+                "tokens": 46484
             },
             {
                 "identity": {
                     "grouping_year": "1993-1993",
                     "languageVariant": "NN"
                 },
-                "docs": 17500,
-                "tokens": 11133982
+                "docs": 17499,
+                "tokens": 11133950
             },
             {
                 "identity": {
@@ -1501,8 +1494,8 @@
                     "grouping_year": "1994-1994",
                     "languageVariant": "BN"
                 },
-                "docs": 44,
-                "tokens": 158358
+                "docs": 41,
+                "tokens": 158118
             },
             {
                 "identity": {
@@ -1517,16 +1510,16 @@
                     "grouping_year": "1995-1995",
                     "languageVariant": "BN"
                 },
-                "docs": 132,
-                "tokens": 5333232
+                "docs": 129,
+                "tokens": 5332834
             },
             {
                 "identity": {
                     "grouping_year": "1995-1995",
                     "languageVariant": "NN"
                 },
-                "docs": 107944,
-                "tokens": 57829722
+                "docs": 107942,
+                "tokens": 57829293
             },
             {
                 "identity": {
@@ -1549,16 +1542,16 @@
                     "grouping_year": "1996-1996",
                     "languageVariant": "BN"
                 },
-                "docs": 470,
-                "tokens": 14727422
+                "docs": 465,
+                "tokens": 14726612
             },
             {
                 "identity": {
                     "grouping_year": "1996-1996",
                     "languageVariant": "NN"
                 },
-                "docs": 5455,
-                "tokens": 2332337
+                "docs": 5452,
+                "tokens": 2329261
             },
             {
                 "identity": {
@@ -1573,8 +1566,8 @@
                     "grouping_year": "1997-1997",
                     "languageVariant": "BN"
                 },
-                "docs": 350,
-                "tokens": 4219310
+                "docs": 342,
+                "tokens": 4210508
             },
             {
                 "identity": {
@@ -1597,16 +1590,16 @@
                     "grouping_year": "1998-1998",
                     "languageVariant": "BN"
                 },
-                "docs": 394,
-                "tokens": 693283
+                "docs": 384,
+                "tokens": 691074
             },
             {
                 "identity": {
                     "grouping_year": "1998-1998",
                     "languageVariant": "NN"
                 },
-                "docs": 2231,
-                "tokens": 2727678
+                "docs": 2229,
+                "tokens": 2727362
             },
             {
                 "identity": {
@@ -1621,32 +1614,32 @@
                     "grouping_year": "1999-1999",
                     "languageVariant": "BN"
                 },
-                "docs": 33849,
-                "tokens": 17271191
+                "docs": 33828,
+                "tokens": 17265349
             },
             {
                 "identity": {
                     "grouping_year": "1999-1999",
                     "languageVariant": "NN"
                 },
-                "docs": 172674,
-                "tokens": 67901374
+                "docs": 172672,
+                "tokens": 67899438
             },
             {
                 "identity": {
                     "grouping_year": "2000-2000",
                     "languageVariant": "BN"
                 },
-                "docs": 37289,
-                "tokens": 19841286
+                "docs": 37273,
+                "tokens": 19826392
             },
             {
                 "identity": {
                     "grouping_year": "2000-2000",
                     "languageVariant": "NN"
                 },
-                "docs": 233228,
-                "tokens": 93023095
+                "docs": 233220,
+                "tokens": 93019496
             },
             {
                 "identity": {
@@ -1669,16 +1662,16 @@
                     "grouping_year": "2001-2001",
                     "languageVariant": "BN"
                 },
-                "docs": 37532,
-                "tokens": 20579150
+                "docs": 37511,
+                "tokens": 20575633
             },
             {
                 "identity": {
                     "grouping_year": "2001-2001",
                     "languageVariant": "NN"
                 },
-                "docs": 201943,
-                "tokens": 83244154
+                "docs": 201936,
+                "tokens": 83241970
             },
             {
                 "identity": {
@@ -1709,16 +1702,16 @@
                     "grouping_year": "2002-2002",
                     "languageVariant": "BN"
                 },
-                "docs": 38976,
-                "tokens": 21370632
+                "docs": 38955,
+                "tokens": 21350923
             },
             {
                 "identity": {
                     "grouping_year": "2002-2002",
                     "languageVariant": "NN"
                 },
-                "docs": 183447,
-                "tokens": 72138630
+                "docs": 183438,
+                "tokens": 72135787
             },
             {
                 "identity": {
@@ -1741,16 +1734,16 @@
                     "grouping_year": "2003-2003",
                     "languageVariant": "BN"
                 },
-                "docs": 39778,
-                "tokens": 20782785
+                "docs": 39764,
+                "tokens": 20781085
             },
             {
                 "identity": {
                     "grouping_year": "2003-2003",
                     "languageVariant": "NN"
                 },
-                "docs": 165417,
-                "tokens": 58170630
+                "docs": 165401,
+                "tokens": 58161808
             },
             {
                 "identity": {
@@ -1773,32 +1766,32 @@
                     "grouping_year": "2004-2004",
                     "languageVariant": "BN"
                 },
-                "docs": 34712,
-                "tokens": 14771922
+                "docs": 34700,
+                "tokens": 14768248
             },
             {
                 "identity": {
                     "grouping_year": "2004-2004",
                     "languageVariant": "NN"
                 },
-                "docs": 181608,
-                "tokens": 63245967
+                "docs": 181595,
+                "tokens": 63239399
             },
             {
                 "identity": {
                     "grouping_year": "2005-2005",
                     "languageVariant": "BN"
                 },
-                "docs": 49326,
-                "tokens": 19248046
+                "docs": 49324,
+                "tokens": 19247532
             },
             {
                 "identity": {
                     "grouping_year": "2005-2005",
                     "languageVariant": "NN"
                 },
-                "docs": 178573,
-                "tokens": 61835650
+                "docs": 178564,
+                "tokens": 61825047
             },
             {
                 "identity": {
@@ -1813,16 +1806,16 @@
                     "grouping_year": "2006-2006",
                     "languageVariant": "BN"
                 },
-                "docs": 56461,
-                "tokens": 19925695
+                "docs": 56460,
+                "tokens": 19925466
             },
             {
                 "identity": {
                     "grouping_year": "2006-2006",
                     "languageVariant": "NN"
                 },
-                "docs": 130385,
-                "tokens": 51114484
+                "docs": 130378,
+                "tokens": 51113509
             },
             {
                 "identity": {
@@ -1853,8 +1846,8 @@
                     "grouping_year": "2007-2007",
                     "languageVariant": "NN"
                 },
-                "docs": 117090,
-                "tokens": 47055965
+                "docs": 117088,
+                "tokens": 47051500
             },
             {
                 "identity": {
@@ -2293,24 +2286,24 @@
                     "grouping_year": "2021-2021",
                     "languageVariant": "BN"
                 },
-                "docs": 136906,
-                "tokens": 41189255
+                "docs": 112461,
+                "tokens": 33943026
             },
             {
                 "identity": {
                     "grouping_year": "2021-2021",
                     "languageVariant": "NN"
                 },
-                "docs": 31647,
-                "tokens": 37618207
+                "docs": 26145,
+                "tokens": 31919707
             },
             {
                 "identity": {
                     "grouping_year": "2021-2021",
                     "languageVariant": "SN"
                 },
-                "docs": 164,
-                "tokens": 56331
+                "docs": 134,
+                "tokens": 48127
             },
             {
                 "identity": {
@@ -2346,14 +2339,6 @@
             },
             {
                 "identity": {
-                    "grouping_year": "6553-6553",
-                    "languageVariant": "BN"
-                },
-                "docs": 1,
-                "tokens": 15
-            },
-            {
-                "identity": {
                     "grouping_year": "versions/folia/splitted_splitted/0/27.xml-versions/folia/splitted_splitted/0/27.xml",
                     "languageVariant": "NN"
                 },
@@ -2371,8 +2356,8 @@
         ]
     },
     "medium": {
-        "docs": 4744122,
-        "tokens": 2156747773,
+        "docs": 4713904,
+        "tokens": 2143679397,
         "groups": [
             {
                 "identity": {
@@ -2399,8 +2384,8 @@
                 "identity": {
                     "medium": "forum"
                 },
-                "docs": 1374,
-                "tokens": 154544696
+                "docs": 1308,
+                "tokens": 151865960
             },
             {
                 "identity": {
@@ -2434,15 +2419,15 @@
                 "identity": {
                     "medium": "misc.: web snippet"
                 },
-                "docs": 77603,
-                "tokens": 52453298
+                "docs": 77362,
+                "tokens": 52337855
             },
             {
                 "identity": {
                     "medium": "newspaper"
                 },
-                "docs": 4633391,
-                "tokens": 1788249447
+                "docs": 4603480,
+                "tokens": 1777975250
             },
             {
                 "identity": {
@@ -2482,8 +2467,8 @@
         ]
     },
     "grouping_year,medium": {
-        "docs": 4744122,
-        "tokens": 2156747773,
+        "docs": 4713904,
+        "tokens": 2143679397,
         "groups": [
             {
                 "identity": {
@@ -2946,8 +2931,8 @@
                     "grouping_year": "1981-1981",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 17,
-                "tokens": 8090
+                "docs": 16,
+                "tokens": 7997
             },
             {
                 "identity": {
@@ -3010,8 +2995,8 @@
                     "grouping_year": "1983-1983",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 21,
-                "tokens": 19346
+                "docs": 19,
+                "tokens": 19250
             },
             {
                 "identity": {
@@ -3098,8 +3083,8 @@
                     "grouping_year": "1985-1985",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 29,
-                "tokens": 10334
+                "docs": 26,
+                "tokens": 9663
             },
             {
                 "identity": {
@@ -3162,8 +3147,8 @@
                     "grouping_year": "1986-1986",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 35,
-                "tokens": 22651
+                "docs": 32,
+                "tokens": 17784
             },
             {
                 "identity": {
@@ -3298,8 +3283,8 @@
                     "grouping_year": "1989-1989",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 30,
-                "tokens": 20043
+                "docs": 29,
+                "tokens": 20015
             },
             {
                 "identity": {
@@ -3338,8 +3323,8 @@
                     "grouping_year": "1990-1990",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 69,
-                "tokens": 30366
+                "docs": 67,
+                "tokens": 30206
             },
             {
                 "identity": {
@@ -3370,8 +3355,8 @@
                     "grouping_year": "1991-1991",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 68,
-                "tokens": 62219
+                "docs": 64,
+                "tokens": 61623
             },
             {
                 "identity": {
@@ -3410,8 +3395,8 @@
                     "grouping_year": "1992-1992",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 106,
-                "tokens": 123570
+                "docs": 103,
+                "tokens": 123290
             },
             {
                 "identity": {
@@ -3450,8 +3435,8 @@
                     "grouping_year": "1993-1993",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 128,
-                "tokens": 94493
+                "docs": 124,
+                "tokens": 94210
             },
             {
                 "identity": {
@@ -3490,8 +3475,8 @@
                     "grouping_year": "1994-1994",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 148,
-                "tokens": 129328
+                "docs": 145,
+                "tokens": 129088
             },
             {
                 "identity": {
@@ -3530,8 +3515,8 @@
                     "grouping_year": "1995-1995",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 287,
-                "tokens": 259016
+                "docs": 282,
+                "tokens": 258189
             },
             {
                 "identity": {
@@ -3586,8 +3571,8 @@
                     "grouping_year": "1996-1996",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 506,
-                "tokens": 559341
+                "docs": 498,
+                "tokens": 555455
             },
             {
                 "identity": {
@@ -3618,8 +3603,8 @@
                     "grouping_year": "1997-1997",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 673,
-                "tokens": 914279
+                "docs": 665,
+                "tokens": 905477
             },
             {
                 "identity": {
@@ -3650,8 +3635,8 @@
                     "grouping_year": "1998-1998",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 1028,
-                "tokens": 1268632
+                "docs": 1016,
+                "tokens": 1266107
             },
             {
                 "identity": {
@@ -3690,8 +3675,8 @@
                     "grouping_year": "1999-1999",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 1548,
-                "tokens": 1711629
+                "docs": 1525,
+                "tokens": 1703851
             },
             {
                 "identity": {
@@ -3730,8 +3715,8 @@
                     "grouping_year": "2000-2000",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 4545,
-                "tokens": 3807669
+                "docs": 4521,
+                "tokens": 3789176
             },
             {
                 "identity": {
@@ -3778,8 +3763,8 @@
                     "grouping_year": "2001-2001",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 6829,
-                "tokens": 5127465
+                "docs": 6801,
+                "tokens": 5121764
             },
             {
                 "identity": {
@@ -3826,8 +3811,8 @@
                     "grouping_year": "2002-2002",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 7194,
-                "tokens": 4464995
+                "docs": 7164,
+                "tokens": 4442443
             },
             {
                 "identity": {
@@ -3882,8 +3867,8 @@
                     "grouping_year": "2003-2003",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 8469,
-                "tokens": 3551921
+                "docs": 8439,
+                "tokens": 3541399
             },
             {
                 "identity": {
@@ -3930,8 +3915,8 @@
                     "grouping_year": "2004-2004",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 7318,
-                "tokens": 2085471
+                "docs": 7293,
+                "tokens": 2075229
             },
             {
                 "identity": {
@@ -3978,8 +3963,8 @@
                     "grouping_year": "2005-2005",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 4319,
-                "tokens": 1378020
+                "docs": 4308,
+                "tokens": 1366903
             },
             {
                 "identity": {
@@ -4018,8 +4003,8 @@
                     "grouping_year": "2006-2006",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 2298,
-                "tokens": 708286
+                "docs": 2290,
+                "tokens": 707082
             },
             {
                 "identity": {
@@ -4058,8 +4043,8 @@
                     "grouping_year": "2007-2007",
                     "medium": "misc.: web snippet"
                 },
-                "docs": 186,
-                "tokens": 66127
+                "docs": 184,
+                "tokens": 61662
             },
             {
                 "identity": {
@@ -4618,16 +4603,16 @@
                     "grouping_year": "2021-2021",
                     "medium": "forum"
                 },
-                "docs": 386,
-                "tokens": 20083424
+                "docs": 320,
+                "tokens": 17404688
             },
             {
                 "identity": {
                     "grouping_year": "2021-2021",
                     "medium": "newspaper"
                 },
-                "docs": 168331,
-                "tokens": 58780369
+                "docs": 138420,
+                "tokens": 48506172
             },
             {
                 "identity": {
@@ -4655,14 +4640,6 @@
             },
             {
                 "identity": {
-                    "grouping_year": "6553-6553",
-                    "medium": "misc.: web snippet"
-                },
-                "docs": 1,
-                "tokens": 15
-            },
-            {
-                "identity": {
                     "grouping_year": "versions/folia/splitted_splitted/0/27.xml-versions/folia/splitted_splitted/0/27.xml",
                     "medium": "written to be spoken"
                 },
@@ -4680,8 +4657,8 @@
         ]
     },
     "medium,languageVariant": {
-        "docs": 4744122,
-        "tokens": 2156747773,
+        "docs": 4713904,
+        "tokens": 2143679397,
         "groups": [
             {
                 "identity": {
@@ -4760,16 +4737,16 @@
                     "medium": "forum",
                     "languageVariant": "NN"
                 },
-                "docs": 511,
-                "tokens": 138865159
+                "docs": 475,
+                "tokens": 136194627
             },
             {
                 "identity": {
                     "medium": "forum",
                     "languageVariant": "SN"
                 },
-                "docs": 479,
-                "tokens": 232626
+                "docs": 449,
+                "tokens": 224422
             },
             {
                 "identity": {
@@ -4808,16 +4785,16 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 30143,
-                "tokens": 17808704
+                "docs": 29984,
+                "tokens": 17739254
             },
             {
                 "identity": {
                     "medium": "misc.: web snippet",
                     "languageVariant": "NN"
                 },
-                "docs": 47452,
-                "tokens": 34642459
+                "docs": 47370,
+                "tokens": 34596466
             },
             {
                 "identity": {
@@ -4840,16 +4817,16 @@
                     "medium": "newspaper",
                     "languageVariant": "BN"
                 },
-                "docs": 1207072,
-                "tokens": 459694943
+                "docs": 1182627,
+                "tokens": 452448714
             },
             {
                 "identity": {
                     "medium": "newspaper",
                     "languageVariant": "NN"
                 },
-                "docs": 2996393,
-                "tokens": 1211626198
+                "docs": 2990927,
+                "tokens": 1208598230
             },
             {
                 "identity": {
@@ -4910,8 +4887,8 @@
         ]
     },
     "grouping_year,medium,languageVariant": {
-        "docs": 4744122,
-        "tokens": 2156747773,
+        "docs": 4713904,
+        "tokens": 2143679397,
         "groups": [
             {
                 "identity": {
@@ -5765,8 +5742,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 5,
-                "tokens": 919
+                "docs": 4,
+                "tokens": 826
             },
             {
                 "identity": {
@@ -5891,8 +5868,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 5,
-                "tokens": 226
+                "docs": 3,
+                "tokens": 130
             },
             {
                 "identity": {
@@ -6044,8 +6021,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 11,
-                "tokens": 1881
+                "docs": 8,
+                "tokens": 1210
             },
             {
                 "identity": {
@@ -6152,8 +6129,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 11,
-                "tokens": 7150
+                "docs": 9,
+                "tokens": 2428
             },
             {
                 "identity": {
@@ -6161,8 +6138,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "NN"
                 },
-                "docs": 24,
-                "tokens": 15501
+                "docs": 23,
+                "tokens": 15356
             },
             {
                 "identity": {
@@ -6386,8 +6363,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 12,
-                "tokens": 4515
+                "docs": 11,
+                "tokens": 4487
             },
             {
                 "identity": {
@@ -6458,8 +6435,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 30,
-                "tokens": 8015
+                "docs": 28,
+                "tokens": 7855
             },
             {
                 "identity": {
@@ -6512,8 +6489,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 24,
-                "tokens": 16235
+                "docs": 20,
+                "tokens": 15639
             },
             {
                 "identity": {
@@ -6575,8 +6552,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 33,
-                "tokens": 23586
+                "docs": 30,
+                "tokens": 23306
             },
             {
                 "identity": {
@@ -6638,8 +6615,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 37,
-                "tokens": 46735
+                "docs": 34,
+                "tokens": 46484
             },
             {
                 "identity": {
@@ -6647,8 +6624,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "NN"
                 },
-                "docs": 91,
-                "tokens": 47758
+                "docs": 90,
+                "tokens": 47726
             },
             {
                 "identity": {
@@ -6701,8 +6678,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 40,
-                "tokens": 43113
+                "docs": 37,
+                "tokens": 42873
             },
             {
                 "identity": {
@@ -6764,8 +6741,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 61,
-                "tokens": 28991
+                "docs": 58,
+                "tokens": 28593
             },
             {
                 "identity": {
@@ -6773,8 +6750,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "NN"
                 },
-                "docs": 226,
-                "tokens": 230025
+                "docs": 224,
+                "tokens": 229596
             },
             {
                 "identity": {
@@ -6872,8 +6849,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 134,
-                "tokens": 121488
+                "docs": 129,
+                "tokens": 120678
             },
             {
                 "identity": {
@@ -6881,8 +6858,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "NN"
                 },
-                "docs": 372,
-                "tokens": 437853
+                "docs": 369,
+                "tokens": 434777
             },
             {
                 "identity": {
@@ -6944,8 +6921,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 236,
-                "tokens": 355650
+                "docs": 228,
+                "tokens": 346848
             },
             {
                 "identity": {
@@ -7016,8 +6993,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 364,
-                "tokens": 313894
+                "docs": 354,
+                "tokens": 311685
             },
             {
                 "identity": {
@@ -7025,8 +7002,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "NN"
                 },
-                "docs": 664,
-                "tokens": 954738
+                "docs": 662,
+                "tokens": 954422
             },
             {
                 "identity": {
@@ -7079,8 +7056,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 577,
-                "tokens": 535504
+                "docs": 556,
+                "tokens": 529662
             },
             {
                 "identity": {
@@ -7088,8 +7065,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "NN"
                 },
-                "docs": 971,
-                "tokens": 1176125
+                "docs": 969,
+                "tokens": 1174189
             },
             {
                 "identity": {
@@ -7160,8 +7137,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 1207,
-                "tokens": 872942
+                "docs": 1191,
+                "tokens": 858048
             },
             {
                 "identity": {
@@ -7169,8 +7146,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "NN"
                 },
-                "docs": 3338,
-                "tokens": 2934727
+                "docs": 3330,
+                "tokens": 2931128
             },
             {
                 "identity": {
@@ -7250,8 +7227,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 1875,
-                "tokens": 1437576
+                "docs": 1854,
+                "tokens": 1434059
             },
             {
                 "identity": {
@@ -7259,8 +7236,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "NN"
                 },
-                "docs": 4949,
-                "tokens": 3688812
+                "docs": 4942,
+                "tokens": 3686628
             },
             {
                 "identity": {
@@ -7349,8 +7326,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 2487,
-                "tokens": 1783505
+                "docs": 2466,
+                "tokens": 1763796
             },
             {
                 "identity": {
@@ -7358,8 +7335,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "NN"
                 },
-                "docs": 4706,
-                "tokens": 2681132
+                "docs": 4697,
+                "tokens": 2678289
             },
             {
                 "identity": {
@@ -7457,8 +7434,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 3295,
-                "tokens": 1305783
+                "docs": 3281,
+                "tokens": 1304083
             },
             {
                 "identity": {
@@ -7466,8 +7443,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "NN"
                 },
-                "docs": 5172,
-                "tokens": 2245438
+                "docs": 5156,
+                "tokens": 2236616
             },
             {
                 "identity": {
@@ -7547,8 +7524,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 3452,
-                "tokens": 684827
+                "docs": 3440,
+                "tokens": 681153
             },
             {
                 "identity": {
@@ -7556,8 +7533,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "NN"
                 },
-                "docs": 3866,
-                "tokens": 1400644
+                "docs": 3853,
+                "tokens": 1394076
             },
             {
                 "identity": {
@@ -7637,8 +7614,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 1489,
-                "tokens": 485230
+                "docs": 1487,
+                "tokens": 484716
             },
             {
                 "identity": {
@@ -7646,8 +7623,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "NN"
                 },
-                "docs": 2830,
-                "tokens": 892790
+                "docs": 2821,
+                "tokens": 882187
             },
             {
                 "identity": {
@@ -7727,8 +7704,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "BN"
                 },
-                "docs": 272,
-                "tokens": 98934
+                "docs": 271,
+                "tokens": 98705
             },
             {
                 "identity": {
@@ -7736,8 +7713,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "NN"
                 },
-                "docs": 2026,
-                "tokens": 609352
+                "docs": 2019,
+                "tokens": 608377
             },
             {
                 "identity": {
@@ -7835,8 +7812,8 @@
                     "medium": "misc.: web snippet",
                     "languageVariant": "NN"
                 },
-                "docs": 155,
-                "tokens": 54297
+                "docs": 153,
+                "tokens": 49832
             },
             {
                 "identity": {
@@ -8987,8 +8964,8 @@
                     "medium": "forum",
                     "languageVariant": "NN"
                 },
-                "docs": 197,
-                "tokens": 19857798
+                "docs": 161,
+                "tokens": 17187266
             },
             {
                 "identity": {
@@ -8996,8 +8973,8 @@
                     "medium": "forum",
                     "languageVariant": "SN"
                 },
-                "docs": 164,
-                "tokens": 56331
+                "docs": 134,
+                "tokens": 48127
             },
             {
                 "identity": {
@@ -9005,8 +8982,8 @@
                     "medium": "newspaper",
                     "languageVariant": "BN"
                 },
-                "docs": 136881,
-                "tokens": 41019960
+                "docs": 112436,
+                "tokens": 33773731
             },
             {
                 "identity": {
@@ -9014,8 +8991,8 @@
                     "medium": "newspaper",
                     "languageVariant": "NN"
                 },
-                "docs": 31450,
-                "tokens": 17760409
+                "docs": 25984,
+                "tokens": 14732441
             },
             {
                 "identity": {
@@ -9055,15 +9032,6 @@
             },
             {
                 "identity": {
-                    "grouping_year": "6553-6553",
-                    "medium": "misc.: web snippet",
-                    "languageVariant": "BN"
-                },
-                "docs": 1,
-                "tokens": 15
-            },
-            {
-                "identity": {
                     "grouping_year": "versions/folia/splitted_splitted/0/27.xml-versions/folia/splitted_splitted/0/27.xml",
                     "medium": "written to be spoken",
                     "languageVariant": "NN"
@@ -9083,8 +9051,8 @@
         ]
     },
     "titleLevel2": {
-        "docs": 4633391,
-        "tokens": 1788249447,
+        "docs": 4603480,
+        "tokens": 1777975250,
         "groups": [
             {
                 "identity": {
@@ -9202,8 +9170,8 @@
                 "identity": {
                     "titleLevel2": "De Standaard"
                 },
-                "docs": 888152,
-                "tokens": 372074897
+                "docs": 885739,
+                "tokens": 370943866
             },
             {
                 "identity": {
@@ -9237,8 +9205,8 @@
                 "identity": {
                     "titleLevel2": "Gazet van Antwerpen"
                 },
-                "docs": 81585,
-                "tokens": 25351758
+                "docs": 75593,
+                "tokens": 23560958
             },
             {
                 "identity": {
@@ -9251,15 +9219,15 @@
                 "identity": {
                     "titleLevel2": "Het Belang van Limburg"
                 },
-                "docs": 50208,
-                "tokens": 15359569
+                "docs": 46292,
+                "tokens": 14155603
             },
             {
                 "identity": {
                     "titleLevel2": "Het Nieuwsblad"
                 },
-                "docs": 174393,
-                "tokens": 44868295
+                "docs": 162269,
+                "tokens": 41747863
             },
             {
                 "identity": {
@@ -9440,8 +9408,8 @@
                 "identity": {
                     "titleLevel2": "NRC"
                 },
-                "docs": 17454,
-                "tokens": 17365645
+                "docs": 14720,
+                "tokens": 15847423
             },
             {
                 "identity": {
@@ -9454,8 +9422,8 @@
                 "identity": {
                     "titleLevel2": "NRC Handelsblad"
                 },
-                "docs": 896752,
-                "tokens": 413536043
+                "docs": 894020,
+                "tokens": 412026297
             },
             {
                 "identity": {
@@ -9565,8 +9533,8 @@
         ]
     },
     "grouping_year,titleLevel2": {
-        "docs": 4633391,
-        "tokens": 1788249447,
+        "docs": 4603480,
+        "tokens": 1777975250,
         "groups": [
             {
                 "identity": {
@@ -11933,40 +11901,40 @@
                     "grouping_year": "2021-2021",
                     "titleLevel2": "De Standaard"
                 },
-                "docs": 13235,
-                "tokens": 6226487
+                "docs": 10822,
+                "tokens": 5095456
             },
             {
                 "identity": {
                     "grouping_year": "2021-2021",
                     "titleLevel2": "Gazet van Antwerpen"
                 },
-                "docs": 33352,
-                "tokens": 10285368
+                "docs": 27360,
+                "tokens": 8494568
             },
             {
                 "identity": {
                     "grouping_year": "2021-2021",
                     "titleLevel2": "Het Belang van Limburg"
                 },
-                "docs": 20603,
-                "tokens": 6487594
+                "docs": 16687,
+                "tokens": 5283628
             },
             {
                 "identity": {
                     "grouping_year": "2021-2021",
                     "titleLevel2": "Het Nieuwsblad"
                 },
-                "docs": 69691,
-                "tokens": 18020511
+                "docs": 57567,
+                "tokens": 14900079
             },
             {
                 "identity": {
                     "grouping_year": "2021-2021",
                     "titleLevel2": "NRC"
                 },
-                "docs": 8741,
-                "tokens": 4925167
+                "docs": 6007,
+                "tokens": 3406945
             },
             {
                 "identity": {
@@ -11981,8 +11949,8 @@
                     "grouping_year": "2021-2021",
                     "titleLevel2": "NRC Handelsblad"
                 },
-                "docs": 15736,
-                "tokens": 8902915
+                "docs": 13004,
+                "tokens": 7393169
             }
         ]
     }
